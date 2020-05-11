@@ -1,7 +1,7 @@
 	  </div>
   </div>
 <hr>
-<footer class="fixed-bottom">
+<footer class="sticky-footer">
     <div class="container" >
         <p class="copyright text-center pull-right" >
 
@@ -22,9 +22,8 @@
 <!--bootstrap file-->
 <script src="<?php echo base_url(THEME_PATH.'assets/js/core/bootstrap.min.js ');?>" type="text/javascript"></script>
 <!--Datatable file-->
-<script src="<?php echo base_url(THEME_PATH.'datatable/js/jquery.dataTables.min.js');?>"></script> 
-
-<script src="<?php echo base_url(THEME_PATH.'datatable/js/dataTables.jqueryui.min.js');?>"></script> 
+<script src="<?php echo base_url(THEME_PATH.'datatables/jquery.dataTables.min.js');?>"></script>
+<script src="<?php echo base_url(THEME_PATH.'datatables/dataTables.bootstrap4.min.js');?>"></script>
 
 <script src="<?php echo base_url(THEME_PATH.'assets/js/light-bootstrap-dashboard.js?v=2.0.1');?>" type="text/javascript"></script>
 <script>
@@ -40,10 +39,14 @@
                 yearRange: "-120:+0", 
                 });
 
-        $('#datatable').DataTable({
-                "pageLength" : 5,
-                "lengthMenu": [[5, 10, 25, -1], [5, 10, 25, "All"]],
-            });
+        // $('#datatable').DataTable({
+        //         "pageLength" : 5,
+        //         "lengthMenu": [[5, 10, 25, -1], [5, 10, 25, "All"]],
+        //     });
         } );
+
+     $(document).ready( function () {
+      $('#datatable').DataTable();
+      } );
  </script>
 </html>

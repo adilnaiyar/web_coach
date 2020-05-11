@@ -16,8 +16,8 @@
     <!--Datepicker File-->
     <link rel="stylesheet" href="<?php echo base_url(THEME_PATH.'assets/css/jquery-ui.css');?>">
     <!--Datatable File-->
-     <link rel="stylesheet" href="<?php echo base_url(THEME_PATH.'datatable/css/jquery.dataTables.min.css');?>">
-    <link rel="stylesheet" href="<?php echo base_url(THEME_PATH.'datatable/css/dataTables.jqueryui.min.css');?>">
+    <link href="<?php echo base_url(THEME_PATH.'datatables/dataTables.bootstrap4.min.css');?>" rel="stylesheet">
+
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
     <!--Ckeditor-->
     <script src="<?php echo base_url(THEME_PATH.'ckeditor/ckeditor.js ');?>"></script>
@@ -29,7 +29,7 @@
 </head>
 <body>
     <div class="wrapper">
-        <div class="sidebar" data-image="<?php echo base_url(THEME_PATH.'assets/img/sidebar-2.jpg');?>">
+        <div class="sidebar" data-image="<?php echo base_url(THEME_PATH.'assets/img/sidebar-5.jpg');?>">
             <div class="sidebar-wrapper">
                 <div class="logo">
                     <a href="" class="simple-text">

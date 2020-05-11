@@ -21,8 +21,8 @@
   	<?php endif;?>
   	<button  class="btn btn-primary pull-right"><a href="<?php echo base_url('users/admin/coadmin/'.$user_id.'/'.$role_id);?>">ADD COADMIN</a>
 	</button>
-	<div class="table-responsive-lg py-2">
-		<table class="table table-hover stripe display " id="datatable">
+	<div class="table-responsive py-2">
+		<table class="table table-bordered" id="datatable" width="100%" cellspacing="0">
 			<thead>
 				<tr>
 					<th>#</th>
